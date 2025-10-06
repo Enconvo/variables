@@ -1,7 +1,7 @@
 {
   "$schema": "https://enconvo.com/schemas/extension.json",
   "name": "variables",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Variables Tools",
   "title": "Variables",
   "icon": "icon.png",
@@ -15,7 +15,7 @@
     {
       "name": "input_text",
       "title": "Input Text",
-      "description": "Input Text",
+      "description": "The user input text in Smart Bar",
       "commandType": "variable",
       "icon": "icon.png",
       "mode": "no-view",
@@ -24,7 +24,7 @@
     {
       "name": "active_application",
       "title": "Active Application",
-      "description": "Active Application",
+      "description": "Get information about the currently active application",
       "commandType": "variable",
       "icon": "icon.png",
       "mode": "no-view",
@@ -33,7 +33,7 @@
     {
       "name": "active_application_screenshot",
       "title": "Active Application Screenshot",
-      "description": "Active Application Screenshot",
+      "description": "Capture a screenshot of the currently active application window",
       "commandType": "variable",
       "icon": "icon.png",
       "mode": "no-view",
@@ -42,7 +42,7 @@
     {
       "name": "active_screen_shot",
       "title": "Active Screen Screenshot",
-      "description": "Active Screen Screenshot",
+      "description": "Capture a screenshot of the active screen",
       "commandType": "variable",
       "icon": "icon.png",
       "mode": "no-view",
@@ -51,7 +51,7 @@
     {
       "name": "focused_window_content",
       "title": "Focused Window Content",
-      "description": "Focused Window Content",
+      "description": "Get the content from the currently focused window",
       "commandType": "variable",
       "icon": "icon.png",
       "mode": "no-view",
@@ -60,7 +60,7 @@
     {
       "name": "latest_clipboard",
       "title": "Latest Clipboard",
-      "description": "Latest Clipboard",
+      "description": "Get the most recent content from the system clipboard",
       "commandType": "variable",
       "icon": "icon.png",
       "mode": "no-view",
@@ -69,7 +69,7 @@
     {
       "name": "selection_text",
       "title": "Selection Text",
-      "description": "Selection Text",
+      "description": "Get the currently selected text from any application",
       "commandType": "variable",
       "icon": "icon.png",
       "mode": "no-view",
@@ -78,7 +78,7 @@
     {
       "name": "finder_current_directory",
       "title": "Finder Current Directory",
-      "description": "Finder Current Directory",
+      "description": "Get the current directory path from Finder",
       "commandType": "variable",
       "icon": "icon.png",
       "mode": "no-view",
@@ -87,7 +87,7 @@
     {
       "name": "finder_selected_files",
       "title": "Finder Selected Files",
-      "description": "Finder Selected Files",
+      "description": "Get the list of files currently selected in Finder",
       "commandType": "variable",
       "icon": "icon.png",
       "mode": "no-view",
@@ -96,7 +96,7 @@
     {
       "name": "active_tab",
       "title": "Active Tab",
-      "description": "Active Tab",
+      "description": "Get the URL and information from the currently active browser tab",
       "commandType": "variable",
       "icon": "icon.png",
       "mode": "no-view",
@@ -105,7 +105,7 @@
     {
       "name": "youtube_transcript",
       "title": "Youtube Transcript",
-      "description": "Youtube Transcript",
+      "description": "Get the transcript from a YouTube video",
       "commandType": "variable",
       "icon": "icon.png",
       "mode": "no-view",
@@ -114,7 +114,7 @@
     {
       "name": "now",
       "title": "Now",
-      "description": "Now",
+      "description": "Get the current date and time",
       "commandType": "variable",
       "icon": "icon.png",
       "mode": "no-view",
