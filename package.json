@@ -1,0 +1,143 @@
+{
+  "$schema": "https://enconvo.com/schemas/extension.json",
+  "name": "variables",
+  "version": "0.0.6",
+  "description": "Variables Tools",
+  "title": "Variables",
+  "icon": "icon.png",
+  "author": "Enconvo",
+  "categories": [
+    "Tools"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "commands": [
+    {
+      "name": "input_text",
+      "title": "Input Text",
+      "description": "Input Text",
+      "commandType": "variable",
+      "icon": "icon.png",
+      "mode": "no-view",
+      "preferences": []
+    },
+    {
+      "name": "active_application",
+      "title": "Active Application",
+      "description": "Active Application",
+      "commandType": "variable",
+      "icon": "icon.png",
+      "mode": "no-view",
+      "preferences": []
+    },
+    {
+      "name": "active_application_screenshot",
+      "title": "Active Application Screenshot",
+      "description": "Active Application Screenshot",
+      "commandType": "variable",
+      "icon": "icon.png",
+      "mode": "no-view",
+      "preferences": []
+    },
+    {
+      "name": "active_screen_shot",
+      "title": "Active Screen Screenshot",
+      "description": "Active Screen Screenshot",
+      "commandType": "variable",
+      "icon": "icon.png",
+      "mode": "no-view",
+      "preferences": []
+    },
+    {
+      "name": "focused_window_content",
+      "title": "Focused Window Content",
+      "description": "Focused Window Content",
+      "commandType": "variable",
+      "icon": "icon.png",
+      "mode": "no-view",
+      "preferences": []
+    },
+    {
+      "name": "latest_clipboard",
+      "title": "Latest Clipboard",
+      "description": "Latest Clipboard",
+      "commandType": "variable",
+      "icon": "icon.png",
+      "mode": "no-view",
+      "preferences": []
+    },
+    {
+      "name": "selection_text",
+      "title": "Selection Text",
+      "description": "Selection Text",
+      "commandType": "variable",
+      "icon": "icon.png",
+      "mode": "no-view",
+      "preferences": []
+    },
+    {
+      "name": "finder_current_directory",
+      "title": "Finder Current Directory",
+      "description": "Finder Current Directory",
+      "commandType": "variable",
+      "icon": "icon.png",
+      "mode": "no-view",
+      "preferences": []
+    },
+    {
+      "name": "finder_selected_files",
+      "title": "Finder Selected Files",
+      "description": "Finder Selected Files",
+      "commandType": "variable",
+      "icon": "icon.png",
+      "mode": "no-view",
+      "preferences": []
+    },
+    {
+      "name": "active_tab",
+      "title": "Active Tab",
+      "description": "Active Tab",
+      "commandType": "variable",
+      "icon": "icon.png",
+      "mode": "no-view",
+      "preferences": []
+    },
+    {
+      "name": "youtube_transcript",
+      "title": "Youtube Transcript",
+      "description": "Youtube Transcript",
+      "commandType": "variable",
+      "icon": "icon.png",
+      "mode": "no-view",
+      "preferences": []
+    },
+    {
+      "name": "now",
+      "title": "Now",
+      "description": "Now",
+      "commandType": "variable",
+      "icon": "icon.png",
+      "mode": "no-view",
+      "preferences": []
+    }
+  ],
+  "dependencies": {
+    "@enconvo/api": "link:/Users/ysnows/Documents/Project/enconvo.nodejs/enconvo_api"
+  },
+  "devDependencies": {
+    "@types/node": "^18.17.14",
+    "eslint": "^8.33.0",
+    "prettier": "^2.8.3",
+    "tsup": "^7.2.0",
+    "typescript": "^5.0.4"
+  },
+  "scripts": {
+    "lint": "eslint src",
+    "lint:fix": "npm run lint --fix",
+    "format": "prettier --write \"**/*.ts\"",
+    "format:check": "prettier --list-different \"**/*.ts\"",
+    "build": "enconvo",
+    "dev": "enconvo --dev"
+  },
+  "minAppVersion": "1.8.8"
+}
