@@ -1,7 +1,7 @@
 {
   "$schema": "https://enconvo.com/schemas/extension.json",
   "name": "variables",
-  "version": "0.0.7",
+  "version": "0.0.16",
   "description": "Variables Tools",
   "title": "Variables",
   "icon": "icon.png",
@@ -76,6 +76,15 @@
       "preferences": []
     },
     {
+      "name": "history_messages",
+      "title": "History Messages",
+      "description": "Get the history messages from the current chat",
+      "commandType": "variable",
+      "icon": "icon.png",
+      "mode": "no-view",
+      "preferences": []
+    },
+    {
       "name": "finder_current_directory",
       "title": "Finder Current Directory",
       "description": "Get the current directory path from Finder",
@@ -94,18 +103,9 @@
       "preferences": []
     },
     {
-      "name": "active_tab",
-      "title": "Active Tab",
-      "description": "Get the URL and information from the currently active browser tab",
-      "commandType": "variable",
-      "icon": "icon.png",
-      "mode": "no-view",
-      "preferences": []
-    },
-    {
-      "name": "youtube_transcript",
-      "title": "Youtube Transcript",
-      "description": "Get the transcript from a YouTube video",
+      "name": "browser_tab",
+      "title": "Browser Active Tab",
+      "description": "Get the URL and webpage content from the currently active browser tab",
       "commandType": "variable",
       "icon": "icon.png",
       "mode": "no-view",
