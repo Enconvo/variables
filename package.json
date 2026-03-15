@@ -1,7 +1,7 @@
 {
   "$schema": "https://enconvo.com/schemas/extension.json",
   "name": "variables",
-  "version": "0.0.44",
+  "version": "0.0.63",
   "description": "Variables Tools",
   "title": "Variables",
   "icon": "icon.png",
@@ -19,6 +19,7 @@
       "commandType": "variable",
       "icon": "icon.png",
       "mode": "no-view",
+      "hidden": true,
       "preferences": []
     },
     {
@@ -28,6 +29,7 @@
       "commandType": "variable",
       "icon": "icon.png",
       "mode": "no-view",
+      "hidden": true,
       "preferences": []
     },
     {
@@ -37,6 +39,7 @@
       "commandType": "variable",
       "icon": "icon.png",
       "mode": "no-view",
+      "hidden": true,
       "preferences": []
     },
     {
@@ -46,6 +49,7 @@
       "commandType": "variable",
       "icon": "icon.png",
       "mode": "no-view",
+      "hidden": true,
       "preferences": []
     },
     {
@@ -55,6 +59,7 @@
       "commandType": "variable",
       "icon": "icon.png",
       "mode": "no-view",
+      "hidden": true,
       "preferences": []
     },
     {
@@ -64,6 +69,7 @@
       "commandType": "variable",
       "icon": "icon.png",
       "mode": "no-view",
+      "hidden": true,
       "preferences": []
     },
     {
@@ -73,6 +79,7 @@
       "commandType": "variable",
       "icon": "icon.png",
       "mode": "no-view",
+      "hidden": true,
       "preferences": []
     },
     {
@@ -82,6 +89,7 @@
       "commandType": "variable",
       "icon": "icon.png",
       "mode": "no-view",
+      "hidden": true,
       "preferences": []
     },
     {
@@ -91,6 +99,7 @@
       "commandType": "variable",
       "icon": "icon.png",
       "mode": "no-view",
+      "hidden": true,
       "preferences": []
     },
     {
@@ -100,6 +109,7 @@
       "commandType": "variable",
       "icon": "icon.png",
       "mode": "no-view",
+      "hidden": true,
       "preferences": []
     },
     {
@@ -109,6 +119,7 @@
       "commandType": "variable",
       "icon": "icon.png",
       "mode": "no-view",
+      "hidden": true,
       "preferences": []
     },
     {
@@ -118,11 +129,32 @@
       "commandType": "variable",
       "icon": "icon.png",
       "mode": "no-view",
+      "hidden": true,
+      "preferences": []
+    },
+    {
+      "name": "opened_applications",
+      "title": "Opened Applications",
+      "description": "Get all currently opened applications on macOS",
+      "commandType": "variable",
+      "icon": "icon.png",
+      "mode": "no-view",
+      "hidden": true,
+      "preferences": []
+    },
+    {
+      "name": "opened_application_names",
+      "title": "Opened Application Names",
+      "description": "Get the names of all currently opened applications on macOS",
+      "commandType": "variable",
+      "icon": "icon.png",
+      "mode": "no-view",
+      "hidden": true,
       "preferences": []
     }
   ],
   "dependencies": {
-    "@enconvo/api": "link:/Users/ysnows/Documents/Project/enconvo.nodejs/enconvo_api"
+    "@enconvo/api": "link:../../enconvo.nodejs/enconvo_api"
   },
   "devDependencies": {
     "@types/node": "^18.17.14",
@@ -136,8 +168,8 @@
     "lint:fix": "npm run lint --fix",
     "format": "prettier --write \"**/*.ts\"",
     "format:check": "prettier --list-different \"**/*.ts\"",
-    "build": "enconvo",
-    "dev": "enconvo --dev"
+    "build": "enconvo dev",
+    "dev": "enconvo dev --dev"
   },
   "minAppVersion": "1.8.8"
 }
