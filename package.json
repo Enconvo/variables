@@ -1,7 +1,7 @@
 {
   "$schema": "https://enconvo.com/schemas/extension.json",
   "name": "variables",
-  "version": "0.0.63",
+  "version": "0.0.70",
   "description": "System variable providers that expose macOS environment data such as active application info, screenshots, clipboard content, selected text, Finder paths, browser tab details, and current date/time for use in workflows and templates.",
   "title": "Variables",
   "icon": "icon.png",
@@ -157,10 +157,10 @@
     "@enconvo/api": "link:../../enconvo.nodejs/enconvo_api"
   },
   "devDependencies": {
-    "@types/node": "^18.17.14",
+    "@types/node": "^25.5.0",
     "eslint": "^8.33.0",
     "prettier": "^2.8.3",
-    "tsup": "^7.2.0",
+    "tsup": "^8.5.1",
     "typescript": "^5.0.4"
   },
   "scripts": {

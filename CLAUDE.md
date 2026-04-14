@@ -17,6 +17,14 @@ npm run format       # Prettier format all .ts files
 npm run format:check # Check formatting without writing
 ```
 
+### Testing API Endpoints
+
+After building, test API endpoints via the local HTTP API (port 54535):
+```bash
+curl -X POST http://localhost:54535/api/variables/{endpoint} \
+    -H "Content-Type: application/json" -d '{}'
+```
+
 ## Architecture
 
 Each variable command is a standalone TypeScript file in `src/` exporting a single `default async function main()`. Commands are registered in `package.json` under the `commands` array with `"commandType": "variable"`.
